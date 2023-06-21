@@ -1,0 +1,150 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+label{
+    margin: 18px;
+}
+.reserv{
+   background-image: url(sebastian-svenson-d2w-_1LJioQ-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    border: 2px solid rgb(217, 240, 236);
+    overflow: hidden;
+}
+input{
+    padding: 8px;
+    border-radius: 9px;
+    width: 98px;
+    background-color:#25333c;
+    color: rgb(1, 1, 5);
+    font-weight: 500;
+    border: 2px solid #e6dddd;
+}
+input:hover{
+    background-color: rgb(224, 213, 213);
+}
+table{
+    margin: 25px 102px;
+    background-color: #e6dddd;
+}
+.reservationtable{
+    margin: 21px;
+    padding: 3px;
+   
+}
+#reservationform{
+    color: #cef070;
+    width: 100%;
+}
+li{
+    margin: 10px;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    margin: 1.5em;
+    color: rgb(144, 177, 167);
+}
+/* form{
+    margin: 73px;
+} */
+label {
+    margin: 53px;
+    font-size: 23px;
+}
+h2{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    margin: 40px;
+    color: #ddd;
+}
+input[type="submit"]{
+    text-align: center;
+    /* display: block; */
+    margin-left: 610px;
+    margin-top: 21px;
+    padding:9px;
+    width: 90px;
+}
+th, td {
+    font-family: 'Work Sans', sans-serif;
+    padding: 0.05em 7.5em;
+    text-align: left;
+    border-bottom: 5px solid #ddd;
+  }
+  .float-right{
+    background-color: beige;
+    color: #000;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .menu-item {
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .item-name {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .item-description {
+    margin-top: 5px;
+    font-style: italic;
+  }
+  p.float-right a{
+    text-decoration: none;
+  }
+  @media screen and (max-width: 1238px) {
+    .reserv {
+      padding: 30px;
+      margin: 10px;
+    }
+  
+    input[type="text"],
+    input[type="date"],
+    input[type="time"],
+    input[type="number"]
+      {
+      width: 90%;
+      margin-bottom: 10px;
+      margin: 15px;
+    }
+    input[type="submit"]{
+      margin: 19px;
+    }
+  }
+  @media screen and (max-width: 1228px){
+    .tablelist{
+      width: 85%;
+      padding: 20px;
+      margin: 15px;
+    }
+    tr, th{
+      display: block;
+      
+    }
+    th, td{
+      display: flex;
+    }
+    .form{
+      margin:30px;
+    }
+  }
+  

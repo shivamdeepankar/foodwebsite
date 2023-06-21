@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+}
+/* body{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-color: rgb(14, 7, 7); */
+    
+    
+
+.login-background{
+    background-image: url(thom-holmes-RqASow2Y6Os-unsplash.jpg);
+    height:100%;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.box{
+    height: 420px;
+    position: relative;
+    width: 380px;
+    background: black;
+    overflow: hidden;
+    border-radius: 8px;
+}
+/* .box::before{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #45f3ff, #45f3ff,#45f3ff) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.box::after{
+    content: "";
+    position: absolute;
+    top: -50;
+    left: -50;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0 deg, transparent, transparent
+    ,rgb(241, 18, 174), rgb(248, 3, 3), rgb(151, 151, 248));
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+} */
+.borderline{
+    position: absolute;
+    top: 0;
+    inset: 0;
+
+}
+/* .borderline::before{
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg, transparent,
+    transparent, #ff2770, #ff2770,#ff2770) ;
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -1.5s;
+} */
+/* .borderline::after{
+    content: "";
+    position: absolute;
+    top: -50;
+    left: -50;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0 deg, transparent, transparent
+    ,rgb(241, 18, 174), rgb(248, 3, 3), rgb(151, 151, 248));
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s; 
+ } */
+@keyframes animate{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.box form{
+    position: absolute;
+    inset: 4px;
+    background: #222;
+    padding: 50px 40px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+.box form h2{
+    color: white;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-weight: 500;
+}
+.box form .inputbox{
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+}
+.box form .inputbox input{
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+    z-index: 10;
+    border-radius: 4px;
+}
+.box form .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 20px 10px 10px;
+     pointer-events: none; 
+    color: #8e8e8e;
+    font-size: 1em;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.box form .inputbox input:valid ~ span,
+.box form .inputbox input:focus ~ span
+{
+    color: white;
+    font-size: 0.75em;
+    transform: translateY(-34px);
+}
+.box form .inputbox i{
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ height: 2px;
+ background: white;
+ border-radius: 4px; 
+ overflow: hidden;
+ transition: 0.5s;
+}
+.box form .inputbox input:valid ~ i,
+.box form .inputbox input:focus ~ i 
+{
+  height: 44px;
+}
+
+.box form .links{
+    display: flex;
+    justify-content: space-between;
+}
+.box form .links a{
+    margin: 10px 0;
+    font-size: 0.75em;
+    color: #8f8f8f;
+    text-decoration: none;
+
+}
+.box form .links a:hover,
+.box form .links a:nth-child(2)
+{
+    color: white
+}
+.box form  input[type="login"]
+{
+    border: none;
+    outline: none;
+    padding: 9px 25px;
+    background: white;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 4px;
+    font-weight: 600;
+    width:100px;
+    margin-top: 10px;
+}
+.box form  input[type="login"]:active
+{
+opacity: 0.8;
+}
+
+.menu-container{
+    display: flex;
+    margin: 10px;
+   border: #222;
+   /* background-image: url(adam-jaime-dmkmrNptMpw-unsplash.jpg); */
+   background-color: rgb(99, 190, 186);
+   overflow: hidden;
+   background-size: cover;
+   height:100%;
+}
+.cocktails{
+    width: 100%;
+    padding:50px;
+    font-size: 1.5em;
+}
+.whisky-container{
+    width: 100%;
+    padding: 50px;
+    font-size: 1.5em;
+}
+.menu-container h2{
+   margin: 5px 0;
+    color: #FFD700;
+    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+   
+}
+.menu-container h3{
+    padding:10px;
+    font-family: 'Lato', sans-serif;
+    color: #82e5aa;
+}
+.menu-container li{
+    padding:6px;
+
+}
+.menu-container li p{
+    padding: 3px;
+    font-weight: 300;
+}
+.price{
+    color: rgb(248, 247, 253);
+    margin: 2px;
+}
+
+.float-right{
+    background-color: beige;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+}
+p.float-right a{
+    text-decoration: none;
+  }
+@media screen and (max-width: 600px){
+    .menu-container{
+             display: block;
+    }
+  } 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Reservation</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="reserv">
+  <h1>Restaurant Reservation</h1>
+  <form id="reservationform">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" required>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" required>
+
+    <label for="members">Members:</label>
+    <input type="number" id="members" required min="1">
+
+    <input type="submit" value="Reserve">
+  </form>
+
+    <h2>Reservation List</h2>
+    <div id="reservationtable">
+    <table class="tablelist">
+      <tr>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Members</th>
+      </tr>
+    </table>
+  </div>
+  <p class="float-right"><a href="/index01.html">Back</a></p>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</body>
+</html>
